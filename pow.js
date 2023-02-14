@@ -1,10 +1,10 @@
 let a = +prompt("Ваше число");
-let n = +prompt("Степінь");
+let b = +prompt("Степінь");
 function pow(a, n) {
-  if (n == 1) {
+  if (b == 1) {
     return a;
   } else {
-    return a * pow(a, n - 1);
+    return a * pow(a, b - 1);
   }
 }
-console.log(pow(a, n));
+console.log(pow(a,b));
