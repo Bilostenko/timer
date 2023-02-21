@@ -7,4 +7,5 @@ function pow(a, n) {
     return a * pow(a, b - 1);
   }
 }
+
 console.log(pow(a,b));
